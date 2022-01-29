@@ -7,7 +7,7 @@ import '../styles/register.css'
 const Login = (props) => {
    return (
       <div className="container">
-         <div className={"form"+props.hide} id='signIn_form'>
+         <div className="form" id='signIn_form'>
             <form action="">
                <h3>Sign In</h3>
                <label htmlFor="userName">User Name</label>

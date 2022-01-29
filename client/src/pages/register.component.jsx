@@ -8,7 +8,7 @@ import '../styles/login.css'
 const register = (props) => {
    return (
       <div className="container">
-         <div className={"form"+props.hide} id='signUp_form'>
+         <div className="form" id='signUp_form'>
             <form action="">
                <h3>Register</h3>
                <input type="text" name="Name" placeholder='Name' class="formTextFeild" />
