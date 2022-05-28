@@ -4,7 +4,7 @@ import './styles/centerBar.css'
 
 const CenterBar = (props) => {
    return (
-      <div id='centerBar'>
+      <div id='centerBar' className='card'>
       </div>
    );
 }

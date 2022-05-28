@@ -4,7 +4,7 @@ import './styles/leftSideBar.css'
 
 const LeftSideBar = (props) => {
    return (
-      <div id='leftSideBar'>
+      <div id='leftSideBar' className='card'>
          <input type="search" id="search" placeholder='Search' />
       </div>
    );

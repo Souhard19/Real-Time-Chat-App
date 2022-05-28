@@ -4,7 +4,7 @@ import './styles/rightSideBar.css'
 
 const RightSideBar = (props) => {
    return (
-      <div id='rightSideBar'>
+      <div id='rightSideBar' className='card'>
       </div>
    );
 }

@@ -10,7 +10,7 @@ const ChatBox = (props) => {
    }
 
    return (
-      <div className={ShowChatBox ? 'show_chatBox' : 'hide_chatBox'} id='chatBox' >
+      <div className={ 'card ' + (ShowChatBox ? 'show_chatBox' : 'hide_chatBox')} id='chatBox' >
          <img src="assets/arrow.png" alt='' className={ShowChatBox? '':'flip180'} id='open_close' onClick={() => SetShowChatBox(!ShowChatBox)} />
          <div id="current_openChats" >
             {
@@ -19,7 +19,20 @@ const ChatBox = (props) => {
             
          </div>
          <div className="chat_section">
-            <div className="chat"></div>
+            <div className="chat card">
+               <div className="messages">
+                  <div>
+                     <div className="msg">
+                        <p>msfdfgsdgsdg</p>
+                        {/* <p>time</p> */}
+                     </div>
+                  </div>
+               </div>
+               <div className="new_message">
+                  <textarea name="" id="" placeholder='Write your message here...' cols="30" rows="10"></textarea>
+                  <div className="send"><img src="assets/send.png" alt="" /></div>
+               </div>
+            </div>
          </div>
       </div>
    );
